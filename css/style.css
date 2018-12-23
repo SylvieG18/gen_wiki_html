@@ -1,3 +1,8 @@
+
+body{
+    min-height: 100vh;
+}
+
 header img{ 
     display: block;
     margin-left: auto;
@@ -12,7 +17,10 @@ h1{
     margin-top: 0;
 
 }
-
+nav{
+    position: sticky;
+    top:0;
+}
 nav li{ 
     display: inline;
     font-family: "Krub";
@@ -54,6 +62,17 @@ main{
     margin-left: 50px;
     margin-right: 50px;
 }
+#presentation{
+    margin: 10% 0;
+}
+#presentation h1{
+    text-align: center;
+}
+#presentation .paragraphes{
+    padding: 50px 0;
+    text-align: center;
+}
+
 h2 xmp, h2 {
     font-family: "Krub";
     font-size: 30px;
@@ -109,7 +128,6 @@ footer{
     flex-direction: row;
     padding-top: 20px;
     padding-bottom:20px;
-
 }
 footer p{
     font-family: "Allerta Stencil";
